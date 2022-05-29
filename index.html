@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Rock Paper Scissors Tutorial</title>
 </head>
 <body>
 
-    <h2>Escolha do Computador: <span id="computer-choice"></span></h2>
-    <h2>Sua escolha: <span id="user-choice"></span></h2>
-    <h2>Resultado: <span id="result"></span></h2>
-    <div>
-    <button id="Pedra">Pedra</button>
-    <button id="Papel">Papel</button>
-    <button id="Tesoura">Tesoura</button>
-    <button id="Lagarto">Lagarto</button>
-    <button id="Spock">Spock</button>
+
+    <h2 class="choice-1">Escolha do Computador: <span class="answer" id="computer-choice"></span></h2>
+    <h2 class="choice-2">Sua escolha: <span class="answer" id="user-choice"></span></h2>
+    <h2 class="choice-3">Resultado: <span class="answer" id="result"></span></h2>
+    <div class="btn">
+    <button class="choice-btn" id="Pedra">Pedra</button>
+    <button class="choice-btn" id="Papel">Papel</button>
+    <button class="choice-btn" id="Tesoura">Tesoura</button>
+    <button class="choice-btn" id="Lagarto">Lagarto</button>
+    <button class="choice-btn" id="Spock">Spock</button>
     </div>
-    <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/pIpmITBocfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pIpmITBocfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <script src="app.js" charset="utf-8"></script>
